@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card-canavas.css">
+</head>
+
+<body>
+    <section class="view">
+        <canvas class="card" id="app"></canvas>
+
+    </section>
+    <script>
+        // get canvas id
+        let unit = "My Unit Book";
+        let unitx = 140;
+        let unity = 30;
+        var cap = document.getElementById('app');
+        var capRes = cap.getContext("2d");
+        capRes.font = "25px Arial";
+        capRes.fillText(unit, unitx, unity);
+        capRes.font = "10px Arial";
+        capRes.fillText("Hello", 100, 100);
+
+
+
+    </script>
+
+</body>
+
+</html>
