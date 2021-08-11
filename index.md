@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome HTML5 Canvas
 
 You can use the [editor on GitHub](https://github.com/codewithpunit/canvas/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
